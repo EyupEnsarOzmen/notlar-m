@@ -1,0 +1,56 @@
+yeni repostory oluşturuyoruz repostoryi bilgisayarımızdaki klasör gibi düşünebiliriz oluşturduğumuz
+bu repostrye kodlarımızı göndereceğiz şimdi çıkan bu ekranı kapatmıyoruz çünkü buradan kodları kopyalayacağız
+
+simdi masaüstümüzde klasör oluşturalım ve içerisine index.html isimli
+bir dosya koyalım ve visiualstudiocode ile açalım <p> etiketi ekleyelim 
+kaydedip kapatalım repostryle aynı ismi verebiliriz zorunlu değil ama ben öyle tercih ediyorum
+
+simdi bir cmd ekranı açacağız ve iki adet komut
+ çalıştıracağız bu komutlar github hesabımızı
+ git yazılımına tanıtmamızı sağlayacak ve biz bir projeyi gönderdiğimizde bu hesabımıza gitmiş olacak
+
+git config --global user.name "eyupensarozmen"
+
+git config --global user.email "iameyupensar@gmail.com"
+
+ben bu komutları daha önce çalıştırdığım için entere basmiyorum siz basınca sizinkide
+tanımlanmış olacak eğer daha önceden bir github hesabı tanımlandıysa hata alacaksınız
+bu hatanın çözümü için windows kimlik bilgileri ayarlarına gidip önceki hesabımıza sağ
+tıklayıp kaldırabilir ama ilk defa yüklüyorsanız
+
+bu komutları yazarsanız bir sorun çıkmayacaktık
+
+simdi cd klasör adı komutuyla klasörümüzün içine girelim sırasıyla aşağıdaki komutları çalıştıralım
+
+-git init- bu komut içinde bulunduğumuz klasörün gite tanımlanması için kullanılır ve klasörün içinde .git isimli
+bir gizli dosya oluşturur
+
+-git status- bu komutu yazarak git yazılımına eklenmemis dosyalarımızı görüntüleyeceğiz.
+
+-git add- git yazlımınına eklenmemis dosyaları bu konutu yazarak ekleyeceğiz.
+
+-git status- tekrar git statüs dediğimizde bir önceki adımda kırmızı olan dosya isimleri yesile dönecek 
+bu değişim dosyaları git repostroymize eklendiğini gösteriyor.
+
+-git commit -m "first commit"- bu komuttaki commit ifadesi kodumuzu göndermek anlamına geliyor 
+tırnak arasında yazdığımız ifade ise commit mesajımızı gösteriyor.
+
+-git remote add origin https- bu komut ise az önce tarayıcıyı kullanarak oluşturduğumuz repository linkini içeriyor
+ ve kodlarımızı bu depoya göndereceğimiz anlamına geliyor.
+
+-git push -u origin master---- bu konutla kodlarımızı az önce linkini belittiğimiz depoya gönderiyoruz.
+
+login olma ekrani çıkacak login olduktan sonra kodlar gitmiş olacak
+
+yukarıdaki adımlar git yazılımı ilk kurulduğunda yapılıyor örneğin daha sonra bu klasörün içine 
+yeni kodlar yazdığımızda projenin içine girip git status ile değişiklikleri görüp
+
+- git status yeni bir kod eklediğimiz için değişiklik yapıldığı gözüküyor
+
+-git add . ile değişiklikleri kaydedip
+
+-git status gördüğünüz gibi yeşil gözüküyor eklendiği anlamına geliyor
+
+-git commit -m "mesajın" ile commit mesajinizi girip
+
+-git push origin master komutuyla kodlarımızı githuba yolluyoruz.
